@@ -1,0 +1,41 @@
+.controlbox {
+    width: 100%;
+    height: 200px;
+    border-bottom: 2px solid #cacaca;
+
+    display: flex;
+    flex-direction: row;
+    
+
+    align-items: center;
+    justify-content: center;
+    
+}
+.controlbox button {
+    width: 240px;
+    height: 35px;
+    margin: 10px;
+    border: none;
+    background-color: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    color: #fff;
+    box-shadow: 3px 3px 3px #999;
+    transition: 0.5s;
+}
+.controlbox .controlbox__start {
+    background-color: darkblue;
+}
+
+.controlbox .controlbox__exit {
+    background-color: darkred;
+}
+
+.controlbox .controlbox__start:hover {
+    box-shadow: 6px 6px 6px #999;
+}
+
+.controlbox .controlbox__exit:hover {
+    box-shadow: 6px 6px 6px #999;
+}
